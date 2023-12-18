@@ -42,10 +42,71 @@ const page = () => {
     </div>
   </div>
    
-    <div className='child'>
-      
-    </div>
+    
 
+   </div>
+   <div className='child'>
+   <div className="child1">
+            <div className="heading">
+              <div className="heading-part">
+                <h3>Admin Dashboard</h3>
+                <p>
+                  Effortlessly Manage, Monitor and Modify: Your control center
+                  for seamless oversight and optimization.
+                </p>
+                <div className="header-button">
+                  <a href="#">Users</a>
+                  <a href="#">Requests</a>
+                  <hr></hr>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <div className="container">
+          <div className="matric-items">
+            <div className="matric-item">
+              <div className="card">
+                <div className="card-detail">
+                  <p>Sign up Initiated</p>
+                </div>
+                <div className="numbers">
+                  <span>56</span>
+                </div>
+              </div>
+            </div>
+            <div className="matric-item">
+              <div className="card">
+                <div className="card-detail">
+                  <p>Sign up Initiated</p>
+                </div>
+                <div className="numbers">
+                  <p>56</p>
+                </div>
+              </div>
+            </div>
+            <div className="matric-item">
+              <div className="card">
+                <div className="card-detail">
+                  <p>Sign up Initiated</p>
+                </div>
+                <div className="numbers">
+                  <span>56</span>
+                </div>
+              </div>
+            </div>
+            <div className="matric-item">
+              <div className="card">
+                <div className="card-detail">
+                  <p>Sign up Initiated</p>
+                </div>
+                <div className="numbers">
+                  <span>56</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
    </div>
    </>
   )

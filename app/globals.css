@@ -33,6 +33,8 @@ body {
   width: 100%;
   height:900px;
   background: var(--Neutral-White, #FFF); 
+  position: absolute;
+  
 
 }
 
@@ -52,10 +54,11 @@ margin-left: 80%;
 .child{
   width: 100%;
 height: 1000px;
-  background-color: gray;
+background: var(--Neutral-White, #FFF); 
+
   position: relative;
   left:80px ;
-  top: 58px;
+  top: 100px;
 }
 .sidebar-navigation
 {
@@ -114,3 +117,124 @@ align-items: center;
 
 }
 
+.child1{
+
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+ 
+}
+.container{
+  display:flex ;
+  align-items: center;
+  justify-content: space-around;
+  
+  padding: 32px;
+}
+
+.heading{
+
+  height: 100%;
+  width: 100%;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-self: stretch;
+  
+}
+.heading-part{
+  height: 100%;
+  width: 100%;
+  
+}
+.heading p{
+  color: var(--Neutral-Gray-500, #667085);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+.heading h3{
+  color: var(--Neutral-Gray-900, #101828);
+
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+}
+.header-button{
+  height: 38px;
+align-self: stretch;
+  padding-top: 32px;
+
+}
+.header-button a{
+  color: var(--Primary-Navy-Blue-600, #20276F);
+
+text-decoration: none;
+padding: 5px;
+/* Text sm/Medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.header-button hr{
+  margin-top: 32px;
+}
+.matric-item{
+  display: flex;
+  width: 250px;
+padding: 32px 24px;
+flex-direction: column;
+/* align-items: flex-start; */
+gap: 12px;
+
+border-radius: 8px;
+border: 1px solid var(--Primary-Navy-Blue-50, #E9EAF2);
+background: var(--Neutral-White, #FFF);
+
+/* Shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+
+
+}
+.matric-items{
+  width: 100%;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: stretch; 
+}
+.card{
+  
+  background-color: #f7fcfd;
+  
+}
+
+.card-detail {
+  color: var(--Neutral-Gray-600, #475467);
+text-align: center;
+/* Text md/Medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500; 
+line-height: 24px; /* 150% */
+}
+.numbers{
+  color: var(--Neutral-Gray-900, #101828);
+text-align: center;
+/* font-family: Inter; */
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+
+}
